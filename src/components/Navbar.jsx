@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaFacebookSquare, FaInstagramSquare, FaGithubSquare } from 'react-icons/fa';
 import { GiHamburgerMenu } from 'react-icons/gi';
+import BackgroundImage from './BackgroundImage';
 import './Navbar.css';
 
 
@@ -48,12 +49,17 @@ const Navbar = () => {
             {/* Navbar Social Icon */}
         </nav>
         {/* Body Section Start*/}
-        <div className='middle-section'>
+        {/* <div className='middle-section'>
             <p>Hello!</p>
             <h1>Sabera Akter Papri</h1>
-
-        </div>
+        </div> */}
         {/* Section End*/}
+
+        {/* Background Image Start */}
+        <div className='backgroundImage'>
+            <BackgroundImage />
+        </div>
+        {/* Background Image end*/}
     </React.Fragment>
   )
 }
